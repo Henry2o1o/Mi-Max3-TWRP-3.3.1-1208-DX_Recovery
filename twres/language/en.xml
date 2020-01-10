@@ -149,14 +149,15 @@
 		<string name="wipe_cache_dalvik_complete">Cache &amp; Dalvik Wipe Complete</string>
 		<string name="wipe_cache_dalvik_confirm">Wipe Cache &amp; Dalvik?</string>
 		<string name="wipe_complete">Wipe Complete</string>
-		<string name="wipe_dalvik_btn">Wipe Dalvik</string>
-		<string name="wipe_dalvik_complete">Dalvik Wipe Complete</string>
+		<string name="wipe_dalvik_btn">Wipe Dalvik</string>		
+	<string name="wipe_dalvik_complete">Dalvik Wipe Complete</string>
 		<string name="wipe_dalvik_confirm">Wipe Dalvik?</string>
 		<string name="wipe_enc_confirm">Wipe Encryption from Data?</string>
 		<string name="wipe_hdr">Wipe</string>
 		<string name="wipe_sel_confirm">Wipe Selected Partition(s)?</string>
 		<string name="wiping_cache_dalvik">Wiping Cache &amp; Dalvik...</string>
 		<string name="wiping_part">Wiping Partition(s)...</string>
+		
 		<string name="zip_add_btn">Add more Zips</string>
 		<string name="zip_back_cancel">Press back to cancel adding this zip.</string>
 		<string name="zip_back_clear">Press back button to clear the queue.</string>
