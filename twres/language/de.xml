@@ -24,7 +24,7 @@
 		<string name="internal">Interner Speicher</string>
 		<string name="microsd">Micro SD-Karte</string>
 		<string name="usbotg">USB-OTG</string>
-		<string name="android_secure">Android Secure</string>
+		<string name="android_secure">Sicheres Android</string>
 		<string name="dalvik">Dalvik / ART Cache</string>
 		<!-- This is a rarely used partition on a Micro SD card for a very old app2sd system -->
 		<string name="sdext">SD-EXT</string>
@@ -76,7 +76,7 @@
 		<string name="queue_hdr">Einreihen</string>
 		<string name="zip_queue_count">%tw_zip_queue_count% von 10 Dateien eingereiht</string>
 		<string name="zip_queue_count_s">File %tw_zip_queue_count% von 10:</string>
-		<string name="zip_warn1">Dieser Vorgang kann möglicherweise inkompatible</string>
+		<string name="zip_warn1">Dieser Vorgang ist möglicherweise inkompatible</string>
 		<string name="zip_warn2">Software installieren und das Gerät unbrauchbar machen.</string>
 		<string name="zip_back_cancel">Zurück-Taste drücken, um den Vorgang abzubrechen.</string>
 		<string name="zip_back_clear">Zurück-Taste drücken, um Warteschlange zu löschen.</string>
@@ -92,8 +92,8 @@
 		<string name="swipe_confirm">Bestätigen</string>
 		<string name="zip_add_btn">Mehr ZIPs hinzufügen</string>
 		<string name="zip_clear_btn">ZIP-Stapel löschen</string>
-		<string name="install_zip_count_hdr">Installiere ZIP %tw_zip_index% von %tw_zip_queue_count%</string>
-		<string name="installing_zip_xml">Installiere ZIP: %tw_file%</string>
+		<string name="install_zip_count_hdr">ZIP %tw_zip_index% von %tw_zip_queue_count% installieren</string>
+		<string name="installing_zip_xml">ZIP installieren: %tw_file%</string>
 		<string name="failed">Fehlgeschlagen</string>
 		<string name="successful">Erfolgreich</string>
 		<string name="install_failed">Installation fehlgeschlagen</string>
@@ -107,8 +107,8 @@
 		<string name="image_flashed">Image eingespielt</string>
 		<string name="wipe_cache_dalvik_confirm">Cache &amp; Dalvik löschen?</string>
 		<string name="wiping_cache_dalvik">Cache &amp; Dalvik löschen…</string>
-		<string name="wipe_cache_dalvik_complete">Cache &amp; Dalvik komplett</string>
-		<string name="wipe_dalvik_complete">Dalvik Wipe komplett</string>
+		<string name="wipe_cache_dalvik_complete">Cache &amp; Dalvik löschen komplett</string>
+		<string name="wipe_dalvik_complete">Dalvik löschen komplett</string>
 		<string name="swipe_wipe">Löschen bestätigen</string>
 		<string name="swipe_wipe_s">Löschen</string>
 		<string name="no_os1">Kein OS installiert! Sind Sie</string>
@@ -421,8 +421,8 @@
 		<string name="dumlock_restore_complete">Wiederherstellen der orginalen Boot-Partition abgeschlossen</string>
 		<string name="dumlock_reflash_btn">Recovery erneut einspielen</string>
 		<string name="dumlock_reflash_confirm">Recovery in Boot-Partition einspielen?</string>
-		<string name="dumlock_reflashing">Spiele Recovery in Boot-Partition ein…</string>
-		<string name="dumlock_reflash_complete">Einspielen der Recovery in die Boot-Partition abgeschlossen</string>
+		<string name="dumlock_reflashing">Recovery in Boot-Partition einspielen…</string>
+		<string name="dumlock_reflash_complete">Recovery in die Boot-Partition einzuspielen abgeschlossen</string>
 		<string name="dumlock_install_btn">HTC Dumlock installieren</string>
 		<string name="dumlock_install_confirm">HTC Dumlock Dateien ins ROM installieren?</string>
 		<string name="dumlock_installing">HTC Dumlock installieren…</string>
@@ -695,18 +695,18 @@
 		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->
 		<string name="file_progress">%llu von %llu Dateien, %i%%</string>
 		<string name="size_progress">%lluMB von %lluMB, %i%%</string>
-		<string name="decrypt_cmd">Daten-Partition per Kommandozeile versuchen zu entschlüsseln.</string>
+		<string name="decrypt_cmd">Versuche die Daten-Partition per Kommandozeile zu entschlüsseln.</string>
 		<string name="base_pkg_err">Basis-Pakete konnten nicht geladen werden.</string>
 		<string name="simulating">Simuliere Aktionen…</string>
 		<string name="backup_cancel">Sicherung abgebrochen</string>
-		<string name="config_twrp">TWRP konfigurieren…</string>
+		<string name="config_twrp">Konfiguriere TWRP…</string>
 		<string name="config_twrp_err">Konfigurieren von TWRP mit diesem Kernel nicht möglich.</string>
 		<string name="copy_log">Recovery-Log wurde nach {1} kopiert.</string>
 		<string name="max_queue">Maximale Anzahl an ZIP-Dateien erreicht!</string>
 		<string name="min_queue">Minimale Anzahl an ZIP-Dateien erreicht!</string>
 		<string name="screenshot_saved">Bildschirmfoto gespeichert unter {1}</string>
 		<string name="screenshot_err">Bildschirmfoto konnte nicht erstellt werden!</string>
-		<string name="zip_wipe_cache">Eine oder mehrere ZIP-Dateien wollen den Cache löschen -- Cache jetzt löschen.</string>
+		<string name="zip_wipe_cache">Eine oder mehrere ZIP-Dateien wollen den Cache löschen -- Lösche Cache jetzt.</string>
 		<string name="and_sec_wipe_err">Android Secure kann nicht gelöscht werden</string>
 		<string name="dalvik_wipe_err">Löschen von Dalvik fehlgeschlagen</string>
 		<string name="auto_gen">(automatisch erstellt)</string>
@@ -718,10 +718,10 @@
 		<string name="change_fs_err">Fehler beim Ändern des Dateisystems.</string>
 		<string name="theme_ver_err">Thema-Version inkompatibel zu TWRP-Version. Standard-Theme wird verwendet.</string>
 		<string name="up_a_level">(Übergeordneter Ordner)</string>
-		<string name="install_reboot"version="2">Neustart in %tw_sleep% Sekunden</string>
-		<string name="adbbackup_error">Fehler während ADB Backup. Abbrechen…</string>
+		<string name="install_reboot" version="2">Neustart in %tw_sleep% Sekunden</string>
+		<string name="adbbackup_error">Fehler während ADB Backup. Abbruch…"</string>
 		<string name="adbbackup_control_error">Kein Zugriff auf ADB Control Channel</string>
-		<string name="twrp_adbbu_option">TWRP-Option wird für ADB Backup benötigt</string>
+		<string name="twrp_adbbu_option">--twrp option wird für ADB Backup benötigt</string>
 		<string name="partition_not_found">Pfad: {1} wurde nicht in Partitionsliste gefunden</string>
 		<string name="copy_kernel_log">Kernel-Log wurde nach {1} kopiert</string>
 		<string name="include_kernel_log">Zusätzlich Kernel-Log kopieren</string>
@@ -759,14 +759,14 @@
 		<string name="rm_forceencrypt_err">Fehler! Es sollte zumindest eine Option gewählt werden!</string>
 		<string name="flash_unlock_btn">Entsperren</string>
 		<string name="flash_unlock_confirm">Den Bootloader entsperren?</string>
-		<string name="flash_unlock_text1">Bootloader entperren kann den Geräteabsturz beim Bildschirm-Logo ignorieren.</string>
+		<string name="flash_unlock_text1">Das Entsperren des Bootloaders kann dazu führen, dass das Bildschirm-Logo nicht mehr angezeigt wird.</string>
 		<string name="flash_unlock_text2">Nach dem entsperren des Bootloaders können Sie weitere ROMs flashen und</string>
 		<string name="flash_unlock_text3">das System des Gerätes einfach bearbeiten.</string>
 		<string name="flash_unlock_doing">Bootloader entsperren…</string>
 		<string name="flash_unlock_complete">Bootloader entsperren</string>
 		<string name="rm_bootpwd_btn">Boot-PWT entfernen</string>
 		<string name="rm_bootpwd_confirm">Passwort beim Systemstart entfernen?</string>
-		<string name="rm_bootpwd_doing">Boot-PWT entfernen…</string>
+		<string name="rm_bootpwd_doing">Boot-Passwort entfernen…</string>
 		<string name="rm_bootpwd_complete">Boot-PWT entfernen komplett</string>
 		<string name="copy_log_hdr">Log kopieren</string>
 		<string name="adbbackup_find_cmd">ADB-Sicherungsbefehl finden…</string>
@@ -812,6 +812,17 @@
 		<string name="close_avb2_rm_verification_ckx">Boot-Prüfung von AVB2.0 beenden</string>
 		<string name="close_avb2_rm_dmverity_ckx">DMVerity von AVB2.0 beenden</string>
 		<string name="close_avb2_err">Fehler! Es sollte zumindest eine Option gewählt werden!</string>
-
+		<string name="msg_kind">{1}</string>
+		<string name="copy_logcat_log">Logcat Log nach kopieren{1}</string>
+		<string name="include_logcat_log">Einschließlich Logcat Log</string>
+		<string name="decrypting_ozip">Ozip-Datei entschlüsseln…</string>
+		<string name="decrypt_ozip_success">Ozip-Datei entschlüsseln erfolgreich</string>
+		<string name="decrypt_ozip_failed">Ozip-Datei entschlüsseln fehlgeschlagen</string>
+		<string name="disable_replace_twrp_btn">TWRP ersetzen deaktivieren</string>
+		<string name="disable_replace_twrp_confirm">TWRP ersetzen deaktivieren?</string>
+		<string name="disable_replace_twrp_text1">AVB2.0 Stock Boot modifizieren kann verhindern,</string>
+		<string name="disable_replace_twrp_text2">dass TWRP durch Stock-Recovery ersetzt wird.</string>
+		<string name="disable_replace_twrp_doing">TWRP ersetzen deaktivieren…</string>
+		<string name="disable_replace_twrp_complete">TWRP ersetzen deaktivieren komplett</string>
 	</resources>
 </language>
