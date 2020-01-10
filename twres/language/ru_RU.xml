@@ -31,6 +31,7 @@
 		<string name="adopted_data">Adopted Data</string>
 		<string name="adopted_storage">Adopted Storage</string>
 		<string name="autostorage">Storage</string>
+		
 		<!-- GUI XML strings -->
 		<string name="twrp_header">Team Win Recovery Project</string>
 		<string name="twrp_watch_header">TWRP %tw_version%</string>
@@ -49,6 +50,7 @@
 		<string name="tab_screen">ЭКРАН</string>
 		<string name="tab_vibration">ВИБРАЦИЯ</string>
 		<string name="tab_language">ЯЗЫК</string>
+		
 		<string name="install_btn">Установить</string>
 		<string name="wipe_btn">Очистка</string>
 		<string name="backup_btn">Бэкап</string>

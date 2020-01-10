@@ -33,7 +33,7 @@
 		<string name="autostorage">Speicher</string>
 
 		<!-- GUI XML strings -->
-		<string name="twrp_header">Team Win Recovery Project</string>
+		<string name="twrp_header">Team Win Recovery Projekt</string>
 		<string name="twrp_watch_header">TWRP %tw_version%</string>
 		<string name="cpu_temp">CPU: %tw_cpu_temp% &#xB0;C</string>
 		<string name="battery_pct">Akku: %tw_battery%</string>
@@ -101,9 +101,9 @@
 		<string name="wipe_cache_dalvik_btn">Cache/Dalvik löschen</string>
 		<string name="reboot_system_btn">System neustarten</string>
 		<string name="install_sel_target">Ziel-Partition auswählen</string>
-		<string name="flash_image_select">Partition wählen, um das Image zu einzuspielen:</string>
+		<string name="flash_image_select">Partition wählen, um das Image einzuspielen:</string>
 		<string name="target_partition">Ziel-Partition:</string>
-		<string name="flashing_image">Spiele Image ein…</string>
+		<string name="flashing_image">Image einspielen…</string>
 		<string name="image_flashed">Image eingespielt</string>
 		<string name="wipe_cache_dalvik_confirm">Cache &amp; Dalvik löschen?</string>
 		<string name="wiping_cache_dalvik">Cache &amp; Dalvik löschen…</string>
@@ -184,7 +184,7 @@
 		<string name="resize_btn">Größe ändern</string>
 		<string name="resize_btn_s">Größe ändern</string>
 		<string name="resize_confirm">Größe von %tw_partition_name% ändern?</string>
-		<string name="resizing">Ändere Größe…</string>
+		<string name="resizing">Größe ändern…</string>
 		<string name="resize_complete">Größenänderung abgeschlossen</string>
 		<string name="swipe_resize">Größenänderung bestätigen</string>
 		<string name="swipe_resize_s">Größe ändern</string>
@@ -202,7 +202,7 @@
 		<string name="change_fs_warn1">Einige ROMs oder Kernel unterstützen möglicherweise manche</string>
 		<string name="change_fs_warn2">Dateisysteme nicht. Überlegt handeln!</string>
 		<string name="change_fs_confirm">%tw_partition_name% ändern?</string>
-		<string name="formatting">Formatierung…</string>
+		<string name="formatting">Formatieren…</string>
 		<string name="format_complete">Formatieren abgeschlossen</string>
 		<string name="swipe_change_fs">Dateisystem ändern</string>
 		<string name="swipe_change_s">Ändern</string>
@@ -251,7 +251,7 @@
 		<string name="del_backup_btn">Sicherung löschen</string>
 		<string name="del_backup_confirm">Sicherung löschen?</string>
 		<string name="del_backup_confirm2">Dies kann nicht rückgängig gemacht werden!</string>
-		<string name="deleting_backup">Sicherung wird gelöscht…</string>
+		<string name="deleting_backup">Sicherung löschen…</string>
 		<string name="backup_deleted">Sicherung gelöscht</string>
 		<string name="swipe_delete">Löschen bestätigen</string>
 		<string name="swipe_delete_s">Löschen</string>
@@ -266,7 +266,7 @@
 		<string name="rename_backup_hdr">Sicherung umbenennen</string>
 		<string name="rename_backup_confirm">Sicherung umbenennen?</string>
 		<string name="rename_backup_confirm2">Dies kann nicht rückgängig gemacht werden!</string>
-		<string name="renaming_backup">Sicherung wird umbenannt…</string>
+		<string name="renaming_backup">Sicherung umbenennen…</string>
 		<string name="rename_backup_complete">Sicherung umbenannt</string>
 		<string name="swipe_to_rename">Name ändern</string>
 		<string name="swipe_rename">Umbenennen</string>
@@ -324,7 +324,7 @@
 		<string name="settings_tz_btn">Zeitzone</string>
 		<string name="settings_screen_btn">Bildschirm</string>
 		<string name="settings_screen_bright_btn">Helligkeit</string>
-		<string name="vibration_disabled">Vibration ist Gerät deaktiviert</string>
+		<string name="vibration_disabled">Vibration ist für dieses Gerät deaktiviert</string>
 		<string name="settings_vibration_btn">Vibration</string>
 		<string name="settings_language_btn">Sprache</string>
 		<string name="time_zone_hdr">Zeitzone</string>
@@ -417,7 +417,7 @@
 		<string name="dumlock_hdr">HTC Dumlock</string>
 		<string name="dumlock_restore_btn">Orginale Boot-Partition wiederherstellen</string>
 		<string name="dumlock_restore_confirm">Orginales Image der Boot-Partition wiederherstellen?</string>
-		<string name="dumlock_restoring">Stelle originale Boot-Partition wieder her…</string>
+		<string name="dumlock_restoring">Originale Boot-Partition wiederherstellen…</string>
 		<string name="dumlock_restore_complete">Wiederherstellen der orginalen Boot-Partition abgeschlossen</string>
 		<string name="dumlock_reflash_btn">Recovery erneut einspielen</string>
 		<string name="dumlock_reflash_confirm">Recovery in Boot-Partition einspielen?</string>
@@ -481,7 +481,7 @@
 		<string name="fix_contexts_note3">Startprobleme verursachen.</string>
 		<string name="swipe_to_fix_contexts">SELinux-Kontexte korrigieren</string>
 		<string name="swipe_fix_contexts">Korrigieren</string>
-		<string name="fixing_contexts">Korrigiere Kontexte…</string>
+		<string name="fixing_contexts">Kontexte korrigieren…</string>
 		<string name="fix_contexts_complete">Korrektur der Kontexte abgeschlossen</string>
 		<string name="reboot_hdr">Neustart</string>
 		<string name="install_cancel">Nicht installieren</string>
@@ -695,18 +695,18 @@
 		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->
 		<string name="file_progress">%llu von %llu Dateien, %i%%</string>
 		<string name="size_progress">%lluMB von %lluMB, %i%%</string>
-		<string name="decrypt_cmd">Versuche die Daten-Partition per Kommandozeile zu entschlüsseln.</string>
+		<string name="decrypt_cmd">Daten-Partition per Kommandozeile versuchen zu entschlüsseln.</string>
 		<string name="base_pkg_err">Basis-Pakete konnten nicht geladen werden.</string>
 		<string name="simulating">Simuliere Aktionen…</string>
 		<string name="backup_cancel">Sicherung abgebrochen</string>
-		<string name="config_twrp">Konfiguriere TWRP…</string>
+		<string name="config_twrp">TWRP konfigurieren…</string>
 		<string name="config_twrp_err">Konfigurieren von TWRP mit diesem Kernel nicht möglich.</string>
 		<string name="copy_log">Recovery-Log wurde nach {1} kopiert.</string>
 		<string name="max_queue">Maximale Anzahl an ZIP-Dateien erreicht!</string>
 		<string name="min_queue">Minimale Anzahl an ZIP-Dateien erreicht!</string>
 		<string name="screenshot_saved">Bildschirmfoto gespeichert unter {1}</string>
 		<string name="screenshot_err">Bildschirmfoto konnte nicht erstellt werden!</string>
-		<string name="zip_wipe_cache">Eine oder mehrere ZIP-Dateien wollen den Cache löschen -- Lösche Cache jetzt.</string>
+		<string name="zip_wipe_cache">Eine oder mehrere ZIP-Dateien wollen den Cache löschen -- Cache jetzt löschen.</string>
 		<string name="and_sec_wipe_err">Android Secure kann nicht gelöscht werden</string>
 		<string name="dalvik_wipe_err">Löschen von Dalvik fehlgeschlagen</string>
 		<string name="auto_gen">(automatisch erstellt)</string>
@@ -716,12 +716,12 @@
 		<string name="no_real_sdcard">Dieses Gerät verwendet keine SD-Karte! Abbruch!</string>
 		<string name="cancel_sideload">ADB Sideload wird abgebrochen…</string>
 		<string name="change_fs_err">Fehler beim Ändern des Dateisystems.</string>
-		<string name="theme_ver_err">Theme-Version inkompatibel zu TWRP-Version. Standard-Theme wird verwendet.</string>
+		<string name="theme_ver_err">Thema-Version inkompatibel zu TWRP-Version. Standard-Theme wird verwendet.</string>
 		<string name="up_a_level">(Übergeordneter Ordner)</string>
 		<string name="install_reboot"version="2">Neustart in %tw_sleep% Sekunden</string>
-		<string name="adbbackup_error">Fehler während ADB Backup. Abbruch…"</string>
+		<string name="adbbackup_error">Fehler während ADB Backup. Abbrechen…</string>
 		<string name="adbbackup_control_error">Kein Zugriff auf ADB Control Channel</string>
-		<string name="twrp_adbbu_option">--twrp option wird für ADB Backup benötigt</string>
+		<string name="twrp_adbbu_option">TWRP-Option wird für ADB Backup benötigt</string>
 		<string name="partition_not_found">Pfad: {1} wurde nicht in Partitionsliste gefunden</string>
 		<string name="copy_kernel_log">Kernel-Log wurde nach {1} kopiert</string>
 		<string name="include_kernel_log">Zusätzlich Kernel-Log kopieren</string>
@@ -812,17 +812,6 @@
 		<string name="close_avb2_rm_verification_ckx">Boot-Prüfung von AVB2.0 beenden</string>
 		<string name="close_avb2_rm_dmverity_ckx">DMVerity von AVB2.0 beenden</string>
 		<string name="close_avb2_err">Fehler! Es sollte zumindest eine Option gewählt werden!</string>
-		<string name="msg_kind">{1}</string>
-		<string name="copy_logcat_log">Logcat Log nach kopieren{1}</string>
-		<string name="include_logcat_log">Einschließlich Logcat Log</string>
-		<string name="decrypting_ozip">Ozip-Datei entschlüsseln…</string>
-		<string name="decrypt_ozip_success">Ozip-Datei entschlüsseln erfolgreich</string>
-		<string name="decrypt_ozip_failed">Ozip-Datei entschlüsseln fehlgeschlagen</string>
-		<string name="disable_replace_twrp_btn">TWRP ersetzen deaktivieren</string>
-		<string name="disable_replace_twrp_confirm">TWRP ersetzen deaktivieren?</string>
-		<string name="disable_replace_twrp_text1">AVB2.0 Stock Boot modifizieren kann verhindern,</string>
-		<string name="disable_replace_twrp_text2">dass TWRP durch Stock-Recovery ersetzt wird.</string>
-		<string name="disable_replace_twrp_doing">TWRP ersetzen deaktivieren…</string>
-		<string name="disable_replace_twrp_complete">TWRP ersetzen deaktivieren komplett</string>
+
 	</resources>
 </language>
