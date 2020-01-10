@@ -732,7 +732,7 @@
 		<string name="fm_to">an</string>
 		<string name="mtp_disabled">MTP deakitviert</string>
 		<string name="for_device_name">für %tw_device_name%</string>
-		<string name="install_root_btn">Root instllieren</string>
+		<string name="install_root_btn">Root installieren</string>
 		<string name="install_root_hdr">Root instllieren</string>
 		<string name="fm_perms_note1">Permissions description: datatype-owner-group-others</string>
 		<string name="fm_perms_note2">read(r)=4,write(w)=2,execute(x)=1, Berechtigungen sind die Summe davon.</string>
@@ -764,10 +764,10 @@
 		<string name="flash_unlock_text3">das System des Gerätes einfach bearbeiten.</string>
 		<string name="flash_unlock_doing">Bootloader entsperren…</string>
 		<string name="flash_unlock_complete">Bootloader entsperren</string>
-		<string name="rm_bootpwd_btn">Boot-PWT entfernen</string>
+		<string name="rm_bootpwd_btn">Boot-Passwort entfernen</string>
 		<string name="rm_bootpwd_confirm">Passwort beim Systemstart entfernen?</string>
 		<string name="rm_bootpwd_doing">Boot-Passwort entfernen…</string>
-		<string name="rm_bootpwd_complete">Boot-PWT entfernen komplett</string>
+		<string name="rm_bootpwd_complete">Boot-Passwort entfernen komplett</string>
 		<string name="copy_log_hdr">Log kopieren</string>
 		<string name="adbbackup_find_cmd">ADB-Sicherungsbefehl finden…</string>
 		<string name="adbbackup_sarted">ADB-Sicherung gestartet</string>
